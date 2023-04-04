@@ -9,7 +9,6 @@ import Footer from "../footer/Footer";
 const MainPage = () => {
     return (
         <div>
-            <Header/>
             <Hero/>
             <Books/>
             <More/>
