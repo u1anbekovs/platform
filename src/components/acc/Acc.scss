@@ -1,0 +1,119 @@
+#acc{
+  margin: 50px 0;
+  .text{
+    margin: 10px 25px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #FFFFFF;
+  }
+  .acc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--block{
+      img{
+        width: 300px;
+      }
+    }
+    &--center {
+      &__card {
+        width: 650px;
+        &--provide {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
+          border-top: 1px solid white;
+
+          h1 {
+            font-family: 'Montserrat',sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            color: #FFFFFF;
+            padding: 15px 0 10px 0;
+            width: 80%;
+          }
+
+          input {
+            display: none;
+          }
+
+          .plus {
+            font-size: 20px;
+            color: white;
+          }
+
+          #plus:checked ~ .acc--center__card--provide__lorem {
+            height: 50px;
+          }
+
+          #plus2:checked ~ .acc--center__card--provide__lorem {
+            height: 50px;
+          }
+
+          #plus3:checked ~ .acc--center__card--provide__lorem {
+            height: 50px;
+          }
+
+          #plus4:checked ~ .acc--center__card--provide__lorem {
+            height: 50px;
+          }
+
+          &__lorem {
+            height: 0;
+            overflow: hidden !important;
+            transition: 1.4s;
+
+            &--paragraph {
+              font-size: 13px;
+              color: white;
+              font-weight: 400;
+            }
+          }
+        }
+        &--prov {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
+          border-top: 1px solid white;
+
+          h1 {
+            font-family: 'Montserrat',sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            color: #FFFFFF;
+            padding: 15px 0 10px 0;
+            width: 80%;
+          }
+
+          input {
+            display: none;
+          }
+
+          .plus {
+            font-size: 20px;
+            color: white;
+          }
+
+          #plus4:checked ~ .acc--center__card--prov__lorem {
+            height: 50px;
+          }
+
+          &__lorem {
+            height: 0;
+            overflow: hidden !important;
+            transition: 1.4s;
+
+            &--paragraph {
+              font-size: 13px;
+              color: white;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+}
