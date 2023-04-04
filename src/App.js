@@ -6,6 +6,8 @@ import НашиКурсы from "./components/more/page/Наши курсы";
 import Онас from "./components/more/page/Онас";
 import Войти from "./components/more/page/Войти";
 import Header from "./components/header/Header";
+import Acc from "./components/acc/Acc'";
+import React from "react";
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
         <Route path={'/О нас'} element={<Онас/>}/>
         <Route path={'/Войти/:id'} element={<Войти/>}/>
       </Routes>
+        <Acc/>
     </div>
   );
 }
