@@ -1,29 +1,30 @@
 import './App.scss';
 import {Route, Routes} from "react-router-dom";
-import MainPage from "./components/main-page/MainPage";
-import Главная from "./components/more/page/Главная";
-import НашиКурсы from "./components/more/page/Наши курсы";
-import Онас from "./components/more/page/Онас";
-import Войти from "./components/more/page/Войти";
+import Home from "./pages/home/home";
 import Header from "./components/header/Header";
-import Acc from "./components/acc/Acc'";
 import React from "react";
+import Footer from "./components/footer/Footer";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import Course from "./pages/Course/Course";
+import Login from "./pages/Login/Login";
+
+
+
 
 
 function App() {
-  return (
-    <div className="App">
-        <Header/>
-      <Routes>
-        <Route path={'/'} element={<MainPage/>}/>
-        <Route path={'/НашиКурсы'} element={<НашиКурсы/>}/>
-        <Route path={'/Главная'} element={<Главная/>}/>
-        <Route path={'/О нас'} element={<Онас/>}/>
-        <Route path={'/Войти/:id'} element={<Войти/>}/>
-      </Routes>
-        <Acc/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Routes>
+                <Route path={'/'} element={<Home/>}/>
+                <Route path={'/our-curses'} element={<Course/>}/>
+                <Route path={'/О нас'} element={<AboutUs/>}/>
+                <Route path={'/Wai/:id'} element={<Login/>}/>
+            </Routes>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

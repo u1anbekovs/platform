@@ -1,6 +1,5 @@
 import React from 'react';
-import boock from '../../img/boock.png'
-import {AiOutlinePlus} from "react-icons/ai";
+import boock from '../../../img/boock.png'
 import {BiChevronDown} from "react-icons/bi";
 
 const Acc = () => {

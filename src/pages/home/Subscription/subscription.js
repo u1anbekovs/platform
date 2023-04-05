@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Онас = () => {
+const Subscription = () => {
     return (
         <div>
-
+            
         </div>
     );
 };
 
-export default Онас;
+export default Subscription;

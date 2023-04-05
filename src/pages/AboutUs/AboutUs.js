@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Главная = () => {
+const AboutUs = () => {
     return (
         <div>
-
+            
         </div>
     );
 };
 
-export default Главная;
+export default AboutUs;

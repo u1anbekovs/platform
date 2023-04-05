@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
-@import "components/style";
+@import "pages/home/home";
+@import "pages/Login/Login";
+@import "components/header/Header";
+@import "pages/Course/Course";
+@import "pages/AboutUs/AboutUs";
 * {
     margin: 0;
     padding: 0;
