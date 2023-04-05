@@ -19,7 +19,7 @@ const Header = () => {
                             <NavLink to={'/'}>Главная</NavLink>
                             <NavLink to={'/our-curses'}>Наши курсы</NavLink>
                             <NavLink to={'/О нас'}>О нас</NavLink>
-                        </div>
+                          </div>
                         <div className="header--new">
                             <Link to={'/Wai/:id'}>
                                 <button> <BiUser className="header--new__icon"/> Войти</button>
